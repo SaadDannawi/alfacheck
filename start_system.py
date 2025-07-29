@@ -88,18 +88,15 @@ def start_bot():
     """Start the Telegram bot."""
     try:
         logger.info("Starting Telegram bot...")
-        # Start bot as a subprocess with output redirection
+        # Start bot as a subprocess with output redirection to a log file
+        bot_log = open("bot_error.log", "a")
         bot_process = subprocess.Popen(
             [sys.executable, "telegram_bot.py"],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
+            stdout=bot_log,
+            stderr=bot_log,
             text=True
         )
-        
-        # Give it a moment to start
         time.sleep(3)
-        
-        # Check if it's still running
         if bot_process.poll() is None:
             logger.info("[SUCCESS] Telegram bot started successfully")
             print("[SUCCESS] Telegram bot started successfully")
@@ -108,7 +105,6 @@ def start_bot():
             logger.error("[ERROR] Bot failed to start")
             print("[ERROR] Bot failed to start")
             return None
-            
     except Exception as e:
         logger.error(f"[ERROR] Error starting bot: {e}")
         print(f"[ERROR] Error starting bot: {e}")
