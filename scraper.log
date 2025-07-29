@@ -1,0 +1,16 @@
+2025-07-29 04:02:54,413 [INFO] MainThread: Database tables created successfully
+2025-07-29 04:02:55,285 [INFO] MainThread: Starting Telegram Alfa Bot...
+2025-07-29 04:02:55,510 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getMe "HTTP/1.1 200 OK"
+2025-07-29 04:02:55,577 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/deleteWebhook "HTTP/1.1 200 OK"
+2025-07-29 04:02:55,577 [INFO] MainThread: Scheduler started
+2025-07-29 04:02:55,577 [INFO] MainThread: Application started
+2025-07-29 04:03:05,772 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getUpdates "HTTP/1.1 200 OK"
+2025-07-29 04:03:15,838 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getUpdates "HTTP/1.1 200 OK"
+2025-07-29 04:03:25,899 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getUpdates "HTTP/1.1 200 OK"
+2025-07-29 04:03:35,979 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getUpdates "HTTP/1.1 200 OK"
+2025-07-29 04:03:46,046 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getUpdates "HTTP/1.1 200 OK"
+2025-07-29 04:03:56,102 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getUpdates "HTTP/1.1 200 OK"
+2025-07-29 04:04:06,167 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getUpdates "HTTP/1.1 200 OK"
+2025-07-29 04:04:16,228 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getUpdates "HTTP/1.1 200 OK"
+2025-07-29 04:04:26,302 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getUpdates "HTTP/1.1 200 OK"
+2025-07-29 04:04:36,355 [INFO] MainThread: HTTP Request: POST https://api.telegram.org/bot7925074479:AAHx9cn0h_6gQSVcLLpt84iGRh46RaMWZcs/getUpdates "HTTP/1.1 200 OK"

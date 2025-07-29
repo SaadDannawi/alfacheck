@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: telegram-bot-dashboard
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python start_system.py"
+    plan: free
+    runtime: python3.10
+    envVars:
+      - key: PORT
+        value: 10000
