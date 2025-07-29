@@ -4,7 +4,7 @@ urllib3==2.0.3
 python-telegram-bot==20.7
 aiohttp==3.9.1
 aiofiles==23.2.0
-SQLAlchemy==2.0.23
+SQLAlchemy==1.4.49
 Flask==3.0.0
 Flask-CORS==4.0.0
 uuid==1.30
